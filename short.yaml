@@ -1,0 +1,8 @@
+---
+setups:
+  - name: aws-sam
+    file: run.sh
+    array_vars:
+      all: ".*"
+    vars:
+      - PROJECT_NAME
