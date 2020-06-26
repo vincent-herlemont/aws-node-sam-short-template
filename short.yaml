@@ -5,4 +5,7 @@ setups:
     array_vars:
       all: ".*"
     vars:
-      - PROJECT_NAME
+      - STACK_NAME
+      - SAM_S3_BUCKET_DEPLOY
+      - SAM_S3_BUCKET_DEPLOY_REGION
+      - STACK_REGION

@@ -1,1 +1,3 @@
-PROJECT_NAME=shortexample
+STACK_NAME=shortexample
+STACK_REGION=us-west-1
+SAM_S3_BUCKET_DEPLOY_REGION=us-west-1
