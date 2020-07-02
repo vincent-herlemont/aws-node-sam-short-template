@@ -3,7 +3,9 @@ setups:
   - name: aws-sam
     file: run.sh
     array_vars:
-      all: ".*"
+      env:
+        pattern: "PARAM_.*"
+        format: CamelCase
     vars:
       - SAM_S3_BUCKET_DEPLOY_REGION
       - STACK_REGION

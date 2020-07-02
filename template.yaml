@@ -3,8 +3,15 @@ Transform: AWS::Serverless-2016-10-31
 Description: >
   sam-app
 
+
   Sample SAM Template for sam-app
-  
+
+Parameters:
+  ParamVar1:
+    Type: String
+  ParamVar2:
+    Type: String
+
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
   Function:
@@ -17,6 +24,10 @@ Resources:
       CodeUri: hello-world/
       Handler: app.lambdaHandler
       Runtime: nodejs12.x
+      Environment:
+        Variables:
+          VAR1: !Ref ParamVar1
+          VAR2: !Ref ParamVar2
       Events:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api

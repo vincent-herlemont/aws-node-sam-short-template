@@ -1,2 +1,5 @@
-STACK_REGION=us-west-1
+﻿STACK_REGION=us-west-1
 SAM_S3_BUCKET_DEPLOY_REGION=us-west-1
+
+PARAM_VAR1=value1
+PARAM_VAR2=value2
