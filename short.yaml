@@ -1,6 +1,6 @@
 ---
 setups:
-  - name: aws-sam
+  aws-sam:
     file: run.sh
     array_vars:
       params:
