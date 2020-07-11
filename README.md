@@ -1,4 +1,24 @@
-# sam-app
+# sam-node-app
+
+This template it's CRUD for AWS-SAM (serverless) 
+
+🩳 commands [.,delete,status]
+
+- Create or update.
+```
+sht run
+``` 
+
+- Status, list cloud formation stack.
+```
+sht run status
+``` 
+
+- Delete all ressources.
+```
+sht run delete
+```
+---
 
 Vincent
 
