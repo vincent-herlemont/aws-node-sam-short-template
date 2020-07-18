@@ -1,5 +1,7 @@
 # sam-node-app
 
+[SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) node template example for [**short🩳**](https://github.com/vincent-herlemont/short)
+
 This template it's CRUD for AWS-SAM (serverless) 
 
 🩳 commands [.,delete,status]
@@ -18,9 +20,6 @@ sht run status
 ```
 sht run delete
 ```
----
-
-Vincent
 
 ---
 
